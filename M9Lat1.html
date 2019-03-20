@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Coding</title>
+</head>
+<body>
+	<h2>Create object from JSON string</h2>
+	<p id="demo"></p>
+
+	<script>
+		var txt = '{"name":"Jhon", "age":30, "city":"New York:}'
+		var obj = JSON.perse(txt);
+		document.getElementById("demo").innerHTML = obj.name + ", " + obj.age;
+	</script>
+</body>
+</html>
